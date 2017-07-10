@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
+}
+
+header {
+    background: #fff;
+    height: 56px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+header li a {
+    margin: 0 30px;
+    color: #4e4e4e;
+    padding: 20px 0 10px 0;
+    font-style: normal;
+    font-weight: 500;
+    text-shadow: 0 1px 0 rgba(255,255,255,.25);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.speaker {
+    margin: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.speaker-image img {
+    width: 160px;
+}
+
+.speaker-details {
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+}
+
+.speaker-details-name {
+    color: #E57D69;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.speaker-details-action {
+    margin-top: auto;
+}
+
+.speaker-details-events {
+    display: flex;
+}
+
+.speaker-details-events-item {
+    background-color: #dddddd;
+    padding: 4px;
+    border-radius: 6px;
+    margin-top: 4px;
+    margin-right: 4px;
+    font-size: 12px;
+}
+
+.speaker-details-action a, .speaker-details-action a:hover, .speaker-details-action a:focus {
+    text-decoration: none;
+    border-radius: 6px;
+    color: black;
+    border: solid 1px rgba(137,149,199,0.2);
+    padding: 4px 8px;
+    background-color: rgba(255,255,255,0.2);
+    margin-right: 4px;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    margin-top: 24px;
+}
+
+form input[type="text"], form textarea, form button {
+    width: 100%;
+    margin: 20px;
+    font-size: 1em;
+}
+
+input, textarea, button {
+    border-radius: 6px;
+    border: solid 1px rgba(137,149,199,0.2);
+    padding: 13px 24px;
+    background-color: rgba(255,255,255,0.2);
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-group {
+    display: flex;
+}
+
+.form-group div {
+    flex: 1;
+    text-align: center;
+}
+
+.ais-input {
+    margin: 24px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.ais-pagination {
+    list-style: none;
+    margin: 24px;
+    display: flex;
+    border-radius: 6px;
+    padding-left: 0;
+    justify-content: center;
+}
+
+.ais-pagination__item {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.ais-pagination__item a {
+    color: black;
+    text-decoration: none;
+}
+
+.ais-pagination__item.ais-pagination__item--active {
+    background-color: #E57D69;
+}
+
+.ais-pagination__item.ais-pagination__item--active a {
+    color:white;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 24px;
+}
+
+.flex-container .left {
+    width: 30%;
+}
+
+.flex-container .right {
+    width: 70%;
+}
+
+.ais-refinement-list {
+    padding: 24px;
+}
+
+.ais-refinement-list__item {
+    padding-top: 8px;
+}
+
+.ais-refinement-list__item label {
+    display: flex;
+    align-items: center;
+}
+
+.ais-refinement-list__value {
+    margin-left: 4px;
+}
+
+.ais-refinement-list__count {
+    margin-left: auto;
+    color: #9D9DBD;
+}
+
+em {
+    font-style: normal;
+    background-color: rgba(229, 125, 105, 0.25);
+}

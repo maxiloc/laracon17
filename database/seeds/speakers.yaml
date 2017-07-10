@@ -1,0 +1,127 @@
+- name: Taylor Otwell
+  title: Creator of Laravel
+  events:
+    - US
+    - EU
+
+- name: Jeffrey Way
+  title: Founder of Laracasts
+  events:
+    - US
+    - EU
+
+- name: Adam Wathan
+  title: Developer / Surfer
+  events:
+    - US
+
+- name: Evan You
+  title: Creator of Vue.js
+  events:
+    - US
+    - EU
+
+- name: Matt Stauffer
+  title: Partner at Tighten
+  events:
+    - US
+
+- name: Nils Adermann
+  title: Co-Creator of Composer
+  events:
+    - US
+
+- name: Justin Jackson
+  title: Maker
+  events:
+    - US
+
+- name: Freek Van der Herten
+  title: Developer at Spatie
+  events:
+    - US
+    - EU
+
+- name: Sean Larkin
+  title: Webpack Core Team
+  events:
+    - US
+
+- name: Laura Elizabeth
+  title: UI / UX Designer
+  events:
+    - US
+
+- name: Tom Schlick
+  title: Sr. Engineer at RunMyBusiness
+  events:
+    - US
+
+- name: Mathias Hansen
+  title: Lead Engineer at VideoBlocks
+  events:
+    - US
+
+- name: Michele Hansen
+  title: Product at The Motley Fool
+  events:
+    - US
+
+- name: Jack McDade
+  title: Creator of Statamic
+  events:
+    - US
+
+- name: Maxime Locqueville
+  title: Full-Stack Engineer at Algolia
+  events:
+    - US
+
+- name: Amo Chohan
+  title: Head of Web Development, Energy Aspects
+  events:
+    - EU
+
+- name: Dries Vints
+  title: Lead Developer at BeatSwitch
+  events:
+    - EU
+
+- name: Eryn O'Neil
+  title: Independent Developer & Tech Lead
+  events:
+    - EU
+
+- name: Hannes Van De Vreken
+  title: Software Engineer at madewithlove
+  events:
+    - EU
+
+- name: Jachim Coudenys
+  title: PHP developer at Combell
+  events:
+    - EU
+
+- name: Joe Ferguson
+  title: PHP developer, Community organizer
+  events:
+    - EU
+
+- name: Laura Elizabeth
+  title: Designer & product creator
+  events:
+    - EU
+
+- name: Marcel Pociot
+  title: Creator of Botman
+  events:
+    - EU
+
+- name: Max Brokman
+  title: Lead Developer - Information Systems, Vice Media
+  events:
+    - EU
+- name: Paweł Lewtak
+  title: Senior Developer
+  events:
+    - EU
