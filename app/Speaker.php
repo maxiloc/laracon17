@@ -17,11 +17,11 @@ class Speaker extends Model {
         return $this->belongsToMany('\App\Conference');
     }
 
-    public function attend(Conference $event)
+    public function attend(Conference $conference)
     {
-        $events_ids = $this->conferences->map(function ($event) { return $event->id; })->toArray();
+        $conferences_ids = $this->conferences->map(function ($conf) { return $conf->id; })->toArray();
 
-        return in_array($event->id, $events_ids);
+        return in_array($conference->id, $conferences_ids);
     }
 
     public function toSearchableArray()
